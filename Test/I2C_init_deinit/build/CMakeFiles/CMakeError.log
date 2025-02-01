@@ -1,0 +1,302 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -Aa 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+clang: error: unable to execute command: Executable "ld.lld" doesn't exist!
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unsupported option '--c++'
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unsupported option '--ec++'
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+clang++: error: unable to execute command: Executable "ld.lld" doesn't exist!
+clang++: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/ninja cmTC_bbddd && [1/2] Building C object CMakeFiles/cmTC_bbddd.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_bbddd.dir/CMakeCCompilerABI.c.o 
+/usr/bin/clang   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -MD -MT CMakeFiles/cmTC_bbddd.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bbddd.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bbddd.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/ninja cmTC_e25bc && [1/2] Building C object CMakeFiles/cmTC_e25bc.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_e25bc.dir/testCCompiler.c.o 
+/usr/bin/clang   -mcpu=cortex-m0plus -mthumb  -std=gnu11 -MD -MT CMakeFiles/cmTC_e25bc.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_e25bc.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_e25bc.dir/testCCompiler.c.o -c /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp/testCCompiler.c
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags: -Aa 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+clang: error: unable to execute command: Executable "ld.lld" doesn't exist!
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang 
+Build flags: -mcpu=cortex-m0plus;-mthumb
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unsupported option '--c++'
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unsupported option '--ec++'
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+clang++: error: unable to execute command: Executable "ld.lld" doesn't exist!
+clang++: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+clang++: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/ninja cmTC_e45f6 && [1/2] Building C object CMakeFiles/cmTC_e45f6.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_e45f6.dir/CMakeCCompilerABI.c.o 
+/usr/bin/clang   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -MD -MT CMakeFiles/cmTC_e45f6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e45f6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e45f6.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/ninja cmTC_8a9a3 && [1/2] Building C object CMakeFiles/cmTC_8a9a3.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_8a9a3.dir/testCCompiler.c.o 
+/usr/bin/clang   -mcpu=cortex-m0plus -mthumb  -std=gnu11 -MD -MT CMakeFiles/cmTC_8a9a3.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_8a9a3.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_8a9a3.dir/testCCompiler.c.o -c /Users/petemahowald/Documents/Github/IMU_NEW/Test/I2C_init_deinit/build/CMakeFiles/CMakeTmp/testCCompiler.c
+clang: error: unsupported argument 'cortex-m0plus' to option '-mcpu='
+ninja: build stopped: subcommand failed.
+
+
+
